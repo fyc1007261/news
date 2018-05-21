@@ -23,6 +23,6 @@ after_script:
   
 env:
  global:
-   - GH_REF: github.com/fyc1007261/News-overview-cd.git
+   - GH_REF: github.com/fyc1007261/News-overview.git
 
 
