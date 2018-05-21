@@ -1,0 +1,28 @@
+language: node_js
+node_js: stable
+
+# S: Build Lifecycle
+install:
+  - npm install
+
+#before_script:
+ # - npm install -g gulp
+
+script:
+  - npm run unit
+
+after_script:
+  - npm run build
+  - cd ./dist
+  - git init
+  - git config user.name "fyc1007261"
+  - git config user.email "fyc1007261@live.com"
+  - git add .
+  - git commit -m "Update docs"
+  - git push --force --quiet "https://${GithubToken}@${GH_REF}" master:master
+  
+env:
+ global:
+   - GH_REF: github.com/fyc1007261/News-overview-cd.git
+
+
