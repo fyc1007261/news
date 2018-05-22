@@ -1,6 +1,6 @@
 # Global News Overview
 
-> A Vue.js project by Group3, SE, SJTU.
+> A Vue.js project by YiFan Cai, FanXu Jiang, Xiao Zhou, Dongqi Li, RuiZhe Tong, SE, SJTU.
 
 ## I. Build Setup
 
@@ -31,7 +31,7 @@ npm run unit
 
 ​	This website is for users to read and share news from all over the world.  Different from common news websites, in this website, news are classified by regions. Also, users can publish firsthand news they discover. Each piece of news has a *heat* value, which will also be shown. Others users can comment on news, either like or dislike, to increase or decrease the *heat* value. News with higher *heat* can be more easily recognized by users. In this way, really important news can be spread and those useless pieces of news will be buried.  
 
-## II.  Functions of this website in detail
+## III.  Functions of this website in detail
 
 ##### 	1. Read news from selected continent
 
@@ -51,10 +51,12 @@ npm run unit
 
 ## IV.  Division of work  
 
-​	Cai Yifan organized the whole projects, did most of the work related to styles and tests, and some work related to logics. 
+​	Cai Yifan offered the original project and did most work on writing the .travis.yml file. 
 
-​	Wu Zhengyu did most of the work related to the logics, and customized PowerPoint presentation.
+​ Zhou Xiao made the PPT .
 
-​	Cai Yifan, Wu Zhengyu, Dong Yutao, He Yuwen raised ideas of this project.
+## V.   Notes
 
-​		
+​ This program is integrated by Travis CI and deployed on Github and displayed on the Github Page.
+​ The Travis CI address is https://www.travis-ci.org/fyc1007261/news
+​ The Github Page is https://fyc1007261.github.io/News-overview/#
